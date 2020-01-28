@@ -30,7 +30,7 @@ if (driveOrBus) {
 } else {
   var driveOrBus = alert("ok, bus it is!")
   alert(
-    "Since you want to take the bus, take another local bus to the bus station terminal, but the local bus is late to your stop.  You end up arriving too late to the bus station terminal taking you to Phoenix."
+    "Since you want to take the bus, you will need take another local bus to the bus station terminal, but the local bus is late to your stop.  You end up arriving too late to the bus station terminal taking you to Phoenix."
   )
   alert(
     "You cancel your trip to Phoenix, but you use extra time to catch up on all of your emails and call some friends and family members that you have been meaning to connect with for a while.  You didn’t make it to Phoenix, but made good use of your time instead and reconnected with some valuable people in your life. GameOver :)"

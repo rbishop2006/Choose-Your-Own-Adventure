@@ -6,12 +6,9 @@ if (fName) {
     `Ok ${fName}, you are driving to Phoenix, do you want to drive your car (press OK) or take the bus? (press Cancel)`
   )
   if (driveOrBus) {
-    driveOrBus = alert(
-      `Cool people always drive, I knew you were cool ${fName} !`
-    )
-    var drive = driveOrBus
+    alert(`Cool people always drive, I knew you were cool ${fName} !`)
     var callFriend = confirm(
-      `You are at the gas station for a break and realize that while you were inside your car was stolen.  ${fName}, do you call a friend from Phoenix to come pick you up (press OK) or do you try to hitchhike with another patron from the station going your way?(press Cancel)`
+      `You are at the gas station for a break and realize that while you were inside your car was stolen.  Well ${fName}, do you call a friend from Phoenix to come pick you up (press OK) or do you try to hitchhike with another patron from the station going your way?(press Cancel)`
     )
     if (callFriend) {
       alert("Let's give'em a call..")
@@ -50,6 +47,30 @@ GameOver :)`
   alert(
     `Oh I see, you don't want to give me your name...well too bad, 
     
-GameOver :(`
+GameOver :(
+OR IS IT????????  .. press OK to play`
   )
+  alert(`Let's play a hidden game instead...`)
+  var guessNumber = prompt("Enter a number 1, 2, or 3 to reveal your fortune.")
+  if (guessNumber === "1") {
+    alert(`Your fortune is...
+
+  'A golden egg of opportunity falls into your lap this month.'
+    
+  If you want to play the Choices to Phoenix game, please refresh and make sure to enter your NAME this time.`)
+  } else if (guessNumber === "2") {
+    alert(`Your fortune is...
+    
+  'A person of words and not deeds is like a garden full of weeds.'
+  
+  If you want to play the Choices to Phoenix game, please refresh and make sure to enter your NAME this time.`)
+  } else if (guessNumber === "3") {
+    alert(`Your fortune is...
+
+  'Because you demand more from yourself, others respect you deeply.'
+    
+  If you want to play the Choices to Phoenix game, please refresh and make sure to enter your NAME this time.`)
+  } else {
+    alert(`WOW! you are not very good at games :(`)
+  }
 }
